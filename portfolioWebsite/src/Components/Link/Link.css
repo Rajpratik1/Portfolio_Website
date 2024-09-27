@@ -1,0 +1,49 @@
+.Coading{
+    height: 60vh;
+    width: 100vw;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.hacker{
+    height: 50rem;
+    width: 100vw; 
+    position: relative;
+}
+
+.coad{
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.Platform img{
+    height: 8rem;
+    width: auto;
+    margin-right:4rem;
+    object-fit: cover;
+} 
+
+@keyframes Coad {
+    
+    
+    to{
+        left: -100%;
+    }
+
+}
+
+.Platform:hover {
+    animation-play-state: paused!important;
+} 
+
+.Platform{
+    height: 50vh;
+    max-width: 97vw;
+    margin-top: 5rem;
+    padding:  2rem 0;
+    position: absolute;
+    animation: Coad 10s linear infinite;
+    display: flex;
+    left: 100%;
+}
